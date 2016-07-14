@@ -1,0 +1,8 @@
+{
+  "mocks": [
+    {
+      "route": "/api/todos",
+      "module": "/mocks/todos.js"
+    }
+  ]
+}

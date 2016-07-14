@@ -1,0 +1,19 @@
+{
+  "name": "mm",
+  "version": "0.0.1",
+  "description": "text backbone with mocha",
+  "dependencies": {
+    "backbone": "~1.3.3",
+    "chai": "~3.5.0",
+    "jquery": "~3.1.0",
+    "jsdom": "~9.4.1",
+    "sinon": "~1.17.4",
+    "sinon-chai": "~2.8.0",
+    "underscore": "~1.8.3",
+    "requirejs": "~2.2.0"
+  },
+  "scripts": {
+        "start": "ws",
+        "test": "mocha"
+  }
+}
