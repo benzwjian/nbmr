@@ -38,7 +38,12 @@ Use Node environment to test
 $ npm test
 ```
 
-Use browser to test
+Use browser to do test
 ```sh
 $ testem
+```
+
+Use browser to do CI test with TAP output
+```sh
+$ testem ci
 ```
