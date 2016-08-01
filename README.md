@@ -9,7 +9,7 @@ $ npm i -g mocha local-web-server
 
 #### Here is what each folder and file contains:
 
-* `todos.html`: The skeleton HTML file for our application.
+* `index.html`: The skeleton HTML file for our application.
 * `testem.json`: The configuration file for Test'Em.
 * `.local-web-server.json`: configuration of local-web-server
 * `lib/`: A folder for Javascript libraries used by the app itself and the test framework.
@@ -19,12 +19,15 @@ $ npm i -g mocha local-web-server
   * `lib/sinon-1.5.2.js`: Sinon.JS library.
   * `lib/sinon-chai.js`: Sinon.JS Assertions for Chai.
   * `lib/underscore-min.js`: Minified version of Underscore.js.
+  * `lib/require.js`: Minified version of Require.js.
 * `mocks/`: A folder hosts response functions of local-web-server
   * `todos.js`: response a collection of todos in JSON
 * `src/`: A folder for our client-side application code.
-  * `src/app-todos.js`: Our application.
+  * `src/collection`: Backbone-Collection class.
+  * `src/model`: Backbone-Model class.
+  * `src/view`: Backbone-View class.
 * `test/`: A folder for test code.
-  * `test/app-todos-test.js`: Test code for our application.
+  * `test/amd/app-todos-test-amd.js`: Test code for our application.
   * `test/mocha.opts`: Configuration options for mocha; we'll look at this in the next section.
 
 #### Run local server for development
