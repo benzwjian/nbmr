@@ -1,4 +1,22 @@
 {
+	"launch_in_dev": [
+		"chrome",
+		"firefox",
+		"safari",
+		"Node"
+	],
+	"launch_in_ci": [
+		"chrome",
+		"firefox",
+		"safari",
+		"Node"
+	],
+	"launchers": {
+		"Node": {
+			"command": "mocha test/amd/*.js -R tap",
+    		"protocol": "tap"
+		}
+	},
 	"framework": "mocha+chai",
 	"src_files": [
 		"lib/sinon-chai.js",
